@@ -1,0 +1,104 @@
+.vamos {
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 3%;
+	padding: 4%;
+	border-top: 5px solid red;
+	border-right: 10px dotted blue;
+	border-bottom: 2px dashed yellow;
+	border-left: 20px groove green; 
+	color: white;
+	box-shadow:  0 100px 10px 10px rgba(0,0,0,.3);
+	text-shadow:  0 3px 2px rgba(0,0,0,.5);
+	border-radius: 50%;
+	background-image  : linear-gradient(top, cyan, purple);
+	background-image  : -webkit-linear-gradient(top, cyan, purple);
+
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #e1e3e5;
+}
+.window {
+	width: 100%;
+	background-color: #fff;
+	margin: 0 auto;
+	margin-top: 5%;
+	box-shadow:  0 1px 6px 2px rgba(0,0,0,.3);
+	padding: 2%;
+	border-radius: 3%;
+}
+.container {
+	padding: 0;
+}
+
+.title {
+	color: #4a4a4a;
+	font-size: 1.5em;
+}
+
+.text--content {
+	color: #9b9b9b;
+	font-size: 1em; 
+}
+
+.button {
+	font-size: .875em;
+	border-radius: 2%;
+	border: 2px solid #c3e29e;
+	color: #7fa84e;
+	background-color: #ebffd3;
+	padding: 3% 4%;
+	font-weight: bold;
+	transition: 500ms ease;
+	margin-bottom: 2%;
+	width: 100%;
+	
+}
+
+.button--bad {
+	border-color: #e29e9e;
+	color: #a84e4e;
+	background-color: #ffd3d3;
+	-webkit-animation: bounce 2s infinite alternate;
+}
+
+.button:hover {
+	border-color: black;
+	color: purple;
+	background-color: cyan;
+}
+
+@-webkit-keyframes bounce {
+	0% {transform: scale(1);}
+	100% {transform: scale(2);}
+}
+
+
+
+@media (min-width: 35em) {
+	.button {
+		width: auto;
+	}
+
+	.container {
+		padding: 10%;
+	}
+	
+	.window{
+		display: inline-block;
+		width: 49%;
+	}
+}
+
+
+@media (min-width: 56.25em) {
+
+	.window{
+		width: 32%;
+	}
+}

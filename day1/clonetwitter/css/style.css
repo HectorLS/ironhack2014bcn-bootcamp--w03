@@ -1,0 +1,51 @@
+.header-img {
+	background-image: url(/img/header_pic.jpg);
+	height: 500px;
+	width: 100%;
+	background-size: cover;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+body {
+	background-color:rgb(230,230,255);
+}
+.lostweets {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.bird {
+	margin-left: 4%;
+}
+.nicolas, .bird {
+	display: inline-block;
+	width: 34px;
+}
+
+.infofol li {
+	margin: 0;
+
+	padding-right: 2%;
+
+}
+
+.followers-bar {
+	height: 80px;
+	background-color: white;
+}
+
+.who-follow {
+	margin-bottom: 2%;
+}
+.who-follow, .trends, .tweets {
+	background-color: white;
+	border: 1px solid rgb(180,180,180);
+}
+
+.colorgrey {
+	color: grey;
+}
+

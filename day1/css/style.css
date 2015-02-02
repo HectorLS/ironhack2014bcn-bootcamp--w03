@@ -1,0 +1,29 @@
+.title {
+	background-color: red;
+	color: white;
+}
+
+
+
+.content {
+}
+
+.logform {
+	padding-top: 4%;
+}
+
+
+.comment-form {
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+
+.nickimg {
+	display: block;
+	margin: 0 auto;
+}
+
+footer {
+	background-color: grey;
+	color: white;
+}
